@@ -1,11 +1,7 @@
-/**
- * File: src/routes/index.js
- * Description: arquivo responsável pela chamada da Api da aplicação.
- * Data: 02/03/2020
- * Author Glaucia Lemos
- */
 
 const express = require('express');
+const bodyParser=require('body-parser');
+const cors=require('cors');
 
 const router = express.Router();
 

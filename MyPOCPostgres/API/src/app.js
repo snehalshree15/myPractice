@@ -2,8 +2,6 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-
-// ==> Rotas da API:
 const index = require('./routes/index');
 const productRoute = require('./routes/product.routes');
 
